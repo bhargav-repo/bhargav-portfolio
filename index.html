@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Engineer Portfolio</title>
+    <meta name="description" content="Portfolio of a Data Engineer specializing in ETL, SQL, and Big Data.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-animation" id="bg-animation"></div>
+
+    <nav class="navbar">
+        <div class="logo">&lt;DataEng /&gt;</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#" class="resume-button-mobile">Resume</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <p class="mono-text accent">Hello, I am</p>
+                <h1 class="glitch" data-text="Bhargav Reddy Munnangi">Bhargav Reddy Munnangi</h1>
+                <h2 class="subtitle">Building Scalable Data Pipelines.</h2>
+                <p class="description">
+                    Data Engineer specializing in High-Volume Streaming & Batch Pipelines, API Integration, and Cloud
+                    Architecture (AWS/GCP).
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="cta-button">View Work</a>
+                    <a href="#" class="cta-button outline">Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="section-title"><span class="mono-text">01.</span> About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am a Data Engineer with extensive experience in designing and monitoring data warehouses and
+                        migrating systems to the cloud.
+                        Currently, I work at <strong>Verizon Communications</strong>, processing 10+ million telecom
+                        network records daily.
+                    </p>
+                    <p>
+                        I have a Master of Science in Business Analytics & AI from The University of Texas at Dallas.
+                    </p>
+                </div>
+                <div class="about-graphic">
+                    <div class="code-block">
+                        <pre><code>
+{
+  "role": "Data Engineer",
+  "education": "MS in Business Analytics & AI",
+  "certifications": [
+    "AWS Certified Solution Architect",
+    "AWS Certified Cloud Practitioner"
+  ],
+  "location": "Dallas, TX"
+}
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <h2 class="section-title"><span class="mono-text">02.</span> Experience</h2>
+            <div class="experience-container">
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Data Engineer <span class="accent">@ Verizon Communications</span></h3>
+                        <span class="mono-text">Aug 2025 – Present</span>
+                    </div>
+                    <p class="job-location mono-text">Dallas, TX</p>
+                    <ul class="job-description">
+                        <li>Processing 10+ million telecom network records through batch (BigQuery SQL) and streaming
+                            (DataFlow) pipelines.</li>
+                        <li>Orchestrating deployments with Airflow and Composer.</li>
+                        <li>Streamlining custom ETL processes using AWS Glue and RedShift for executive reporting.</li>
+                    </ul>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Data Engineer <span class="accent">@ Larsen & Toubro Limited</span></h3>
+                        <span class="mono-text">Jul 2018 – Aug 2022</span>
+                    </div>
+                    <p class="job-location mono-text">Chennai, India</p>
+                    <ul class="job-description">
+                        <li>Developed monitoring tools tracking 50+ health metrics across Cloudera-hosted Hadoop
+                            clusters (HDFS, Hive, Spark, Kafka).</li>
+                        <li>Automated billing workflows processing 100,000+ monthly invoices using Python and Airflow.
+                        </li>
+                        <li>Designed Internal Data Warehouse Platform consolidating data from 200+ projects.</li>
+                    </ul>
+                </div>
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3>Data Analyst <span class="accent">@ Larsen & Toubro Limited</span></h3>
+                        <span class="mono-text">Jul 2016 – Jun 2018</span>
+                    </div>
+                    <p class="job-location mono-text">Chennai, India</p>
+                    <ul class="job-description">
+                        <li>Managed Oracle Health Insurance claims maintenance using Oracle Data Integrator (ODI).</li>
+                        <li>Developed cross-functional data visualization dashboards to streamline operational
+                            workflows.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="section-title"><span class="mono-text">03.</span> Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>Bash</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Engineering</h3>
+                    <ul>
+                        <li>Apache Airflow</li>
+                        <li>Apache Spark</li>
+                        <li>Kafka</li>
+                        <li>AWS Glue</li>
+                        <li>dbt</li>
+                        <li>Snowflake</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Cloud & DevOps</h3>
+                    <ul>
+                        <li>AWS (S3, Lambda, Redshift)</li>
+                        <li>GCP (BigQuery, DataFlow)</li>
+                        <li>Docker & Kubernetes</li>
+                        <li>Jenkins CI/CD</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Analytics & BI</h3>
+                    <ul>
+                        <li>Pandas / NumPy</li>
+                        <li>Tableau</li>
+                        <li>Power BI</li>
+                        <li>TensorFlow</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title"><span class="mono-text">04.</span> Featured Projects</h2>
+            <div class="projects-container">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">AI-Powered Travel Planner</h3>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>FastAPI</span>
+                            <span>Docker</span>
+                            <span>Google Gemini API</span>
+                        </div>
+                        <p class="project-desc">
+                            Engineered a microservice-based GenAI application using Python, FastAPI, Docker, and n8n to
+                            process user inputs via Streamlit and leverage the Google Gemini API for automated,
+                            personalized itinerary generation.
+                        </p>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Podcast Transcript Summarizer</h3>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Spotify API</span>
+                            <span>Google Gemini API</span>
+                        </div>
+                        <p class="project-desc">
+                            Designed an automated Text ETL pipeline to extract data from the Spotify API, process raw
+                            transcripts, and utilize the Google Gemini API for efficient, multi-level content
+                            summarization.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section-title"><span class="mono-text">05.</span> Get In Touch</h2>
+            <div class="contact-content">
+                <p>
+                    I'm currently looking for new opportunities. Whether you have a question or just want to say hi,
+                    I'll try my best to get back to you!
+                </p>
+                <a href="mailto:bhargavreddy.munnangi@gmail.com" class="cta-button">Say Hello</a>
+                <div class="social-links" style="margin-top: 20px;">
+                    <a href="#" class="mono-text accent" style="margin: 0 10px;">LinkedIn</a>
+                    <a href="#" class="mono-text accent" style="margin: 0 10px;">GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Designed & Built by Your Name</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
